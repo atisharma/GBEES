@@ -1,23 +1,24 @@
-GBEES v1.1.4 Grid-based Estimation, Exploiting Sparsity
-=======================================================
+Grid-based Estimation, Exploiting Sparsity
+==========================================
+*GBEES v1.1.4*
+--------------
 
 Maintainer
 ----------
 
-* A S Sharma
-* Aerodynamics and Flight Mechanics
-* Faculty of Engineering and the Environment
-* University of Southampton, UK
-* http://www.personal.soton.ac.uk/as5v12/
+A S Sharma  
+Aerodynamics and Flight Mechanics  
+Faculty of Engineering and the Environment  
+University of Southampton, UK  
+http://www.personal.soton.ac.uk/as5v12/
 
 
 Citation
 --------
 
->Efficient grid-based Bayesian estimation of nonlinear low-dimensional systems with sparse non-Gaussian PDFs
->T R Bewley, A S Sharma
->Automatica 48 (7), 2012, pp. 1286-1290
->[DOI](http://dx.doi.org/10.1016/j.automatica.2012.02.039)
+Efficient grid-based Bayesian estimation of nonlinear low-dimensional systems with sparse non-Gaussian PDFs  
+T R Bewley, A S Sharma  
+Automatica 48 (7), 2012, pp. 1286-1290, [DOI](http://dx.doi.org/10.1016/j.automatica.2012.02.039)  
 
 Also available on [ArXiV](http://arxiv.org/abs/1301.4866v1) and the maintainer's [personal web site](http://www.personal.soton.ac.uk/as5v12/).
 
