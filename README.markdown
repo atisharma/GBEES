@@ -14,13 +14,12 @@ http://www.personal.soton.ac.uk/as5v12/
 Citation
 --------
 
-This is the companion code to the paper
->"Efficient grid-based Bayesian estimation of nonlinear low-dimensional systems with sparse non-Gaussian PDFs,  
-T R Bewley, A S Sharma,  
-Automatica 48 (7), 2012, pp. 1286-1290,  
-[DOI](http://dx.doi.org/10.1016/j.automatica.2012.02.039)"
+>Efficient grid-based Bayesian estimation of nonlinear low-dimensional systems with sparse non-Gaussian PDFs
+>T R Bewley, A S Sharma
+>Automatica 48 (7), 2012, pp. 1286-1290
+>[DOI](http://dx.doi.org/10.1016/j.automatica.2012.02.039)
 
-Also available on [ArXiV](http://arxiv.org/abs/1301.4866v1) and the maintainers [personal web site](http://www.personal.soton.ac.uk/as5v12/).
+Also available on [ArXiV](http://arxiv.org/abs/1301.4866v1) and the maintainer's [personal web site](http://www.personal.soton.ac.uk/as5v12/).
 
 
 Abstract
@@ -50,25 +49,25 @@ You can see examples in the code for solid body rotation, and for the Lorenz equ
 Changelog
 ---------
 
-v0.1 used vectors; slow
-v0.2 uses maps; O(log(n)) most ops
-v0.3 implements key by {i,j,k} and sparserotate neighbour tracking by iterators, uses lists efficiently, Gudenov, flux limiting etc
-v0.3.1 CFL targeting & bugfixes
-v1.0.1 bugfixes, truth model
-v1.0.2 bugfixes
-v1.0.3 start of noise
-v1.0.4 Gaussian blur implemented
-v1.0.6 Entropy measures - a first attempt
-v1.0.7 Minor speed improvements; bug fix
-v1.0.8 Bayesian measurement updates; if statements rewritten
-v1.0.9 Gaussian reference distribution for m im H calculation; and dump/plot distrib every given time
-v1.0.10 Rewrote `distribution::drop()` to not loop over all elements -- 35% speed gain!
-v1.0.11 Changed `update()` to unchecked insert, and consolidate
-v1.1.0 Now uses `std::map`; this gives O(n*log(n)) performance -- MUCH faster -- now critical step is timestepping
-v1.1.1 fixed bug in second order flux correction terms
-v1.1.2 things properly arranged in header files and .cpp files
-v1.1.3 coded 2d leveque test case
-v1.1.4 put up on GitHub
+* v0.1 used vectors; slow
+* v0.2 uses maps; O(log(n)) most ops
+* v0.3 implements key by {i,j,k} and sparserotate neighbour tracking by iterators, uses lists efficiently, Gudenov, flux limiting etc
+* v0.3.1 CFL targeting & bugfixes
+* v1.0.1 bugfixes, truth model
+* v1.0.2 bugfixes
+* v1.0.3 start of noise
+* v1.0.4 Gaussian blur implemented
+* v1.0.6 Entropy measures - a first attempt
+* v1.0.7 Minor speed improvements; bug fix
+* v1.0.8 Bayesian measurement updates; if statements rewritten
+* v1.0.9 Gaussian reference distribution for m im H calculation; and dump/plot distrib every given time
+* v1.0.10 Rewrote `distribution::drop()` to not loop over all elements -- 35% speed gain!
+* v1.0.11 Changed `update()` to unchecked insert, and consolidate
+* v1.1.0 Now uses `std::map`; this gives O(n log(n)) performance -- *MUCH* faster -- now critical step is timestepping
+* v1.1.1 fixed bug in second order flux correction terms
+* v1.1.2 things properly arranged in header files and .cpp files
+* v1.1.3 coded 2d leveque test case
+* v1.1.4 put up on GitHub
 
 
 Future features
