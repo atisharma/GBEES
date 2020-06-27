@@ -6,11 +6,8 @@ Grid-based Estimation, Exploiting Sparsity
 Maintainer
 ----------
 
-A S Sharma  
-Aerodynamics and Flight Mechanics  
-Faculty of Engineering and the Environment  
-University of Southampton, UK  
-http://www.personal.soton.ac.uk/as5v12/
+A S Sharma
+https://www.atisharma.info
 
 
 Citation
